@@ -6,7 +6,7 @@ discreta con marcas de agua de Odoo y "Implementado por EliteSolutions", **sin O
 - Depende de `web_enterprise`. No agrega modelos, campos ni permisos.
 - Redefine la variable CSS `--homeMenu-bg-image` (la misma que usa Odoo para su fondo).
 - Desinstalar el módulo devuelve el fondo original.
-- Imagen: `static/img/fondo_home.png` (2560x1440). Se genera con
+- Imágenes en `static/img/` (fondo limpio + marcas). La marca Elite es un enlace a /implementacion-odoo. Se genera con
   `elitesolutions/meta/fondo-home/generar_fondo_home.py`.
 
 ## Instalación

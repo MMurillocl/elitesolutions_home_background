@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+  <!-- Marcas sobre el menú de aplicaciones: Odoo (decorativa) y EliteSolutions (enlace) -->
+  <t t-name="elitesolutions_home_background.HomeMenu" t-inherit="web_enterprise.HomeMenu" t-inherit-mode="extension">
+    <xpath expr="//div[@t-ref='root']" position="inside">
+      <img class="o_es_home_odoo" src="/elitesolutions_home_background/static/img/marca_odoo.png" alt="" aria-hidden="true"/>
+      <a class="o_es_home_credit" href="https://www.elitesolutions.cl/implementacion-odoo" target="_blank" rel="noopener" title="Implementado por EliteSolutions">
+        <img src="/elitesolutions_home_background/static/img/marca_elite.png" alt="Implementado por EliteSolutions"/>
+      </a>
+    </xpath>
+  </t>
+
+</templates>

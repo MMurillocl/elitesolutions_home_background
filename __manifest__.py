@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'EliteSolutions - Fondo del Menú de Aplicaciones',
-    'version': '19.0.1.0.0',
+    'version': '19.0.1.1.0',
     'category': 'Hidden',
     'summary': 'Fondo del menú de aplicaciones de Odoo Enterprise con la marca "Implementado por EliteSolutions", sin necesidad de Odoo Studio',
     'description': """
         Reemplaza el fondo del menú de aplicaciones (home menu) de Odoo Enterprise
-        por una imagen discreta con marcas de agua de Odoo y de EliteSolutions
-        ("Implementado por").
+        por una imagen limpia y agrega las marcas "Odoo" y "Implementado por
+        EliteSolutions" en las esquinas. La marca de EliteSolutions es un enlace
+        (www.elitesolutions.cl) que abre https://www.elitesolutions.cl/implementacion-odoo.
 
         En Odoo Enterprise el fondo personalizado solo se puede cambiar con Odoo
         Studio. Este módulo lo hace sin Studio: solo redefine la variable CSS
@@ -24,6 +25,7 @@
     'assets': {
         'web.assets_backend': [
             'elitesolutions_home_background/static/src/scss/home_background.scss',
+            'elitesolutions_home_background/static/src/home_menu/home_menu.xml',
         ],
     },
     'images': ['static/description/banner.png'],

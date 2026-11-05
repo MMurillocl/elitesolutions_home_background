@@ -4,3 +4,41 @@
 .o_web_client.o_home_menu_background {
     --homeMenu-bg-image: url("/elitesolutions_home_background/static/img/fondo_home.png");
 }
+
+// Marcas fijas en las esquinas (no dependen del recorte de la imagen en monitores anchos).
+.o_home_menu {
+    .o_es_home_credit,
+    .o_es_home_odoo {
+        position: fixed;
+        bottom: 5vh;
+        z-index: 1;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .o_es_home_credit {
+        right: 3vw;
+        width: clamp(200px, 17vw, 340px);
+        text-decoration: none;
+        transition: transform .15s ease;
+
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+
+    .o_es_home_odoo {
+        left: 3vw;
+        width: clamp(110px, 9vw, 190px);
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .o_home_menu .o_es_home_odoo {
+        display: none;
+    }
+}

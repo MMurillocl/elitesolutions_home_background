@@ -28,3 +28,4 @@ translúcidas). Para cambiarla: regenerar y reemplazar el archivo (subir versió
 | Fecha | IA | Sección modificada | Por qué |
 |-------|----|--------------------|---------|
 | 2026-11-05 | Claude | Todo | Creación: Mario pidió un módulo chico, no privado, para clientes SH sin Studio (HDS, Santa Cristina, H2S) |
+| 2026-11-05 | Claude | Imágenes, Cómo funciona | v1.1.0: la marca Elite pasa a ser un enlace real (HTML sobre el home menu) en vez de ir horneada en el fondo; Mario pidió que se vea www.elitesolutions.cl y lleve a /implementacion-odoo |
