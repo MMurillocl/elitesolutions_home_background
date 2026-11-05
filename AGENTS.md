@@ -14,10 +14,13 @@ Mario descartó instalar Studio: este módulo logra lo mismo con CSS.
 `static/src/scss/home_background.scss` redefine esa variable (bundle `web.assets_backend`).
 Sin modelos, campos ni permisos. Desinstalar = vuelve el fondo original.
 
-## Imagen
-`static/img/fondo_home.png` (2560x1440), generada con
-`C:\repos\elitesolutions\meta\fondo-home\generar_fondo_home.py` (marcas Odoo + Elite al 76% de alto,
-translúcidas). Para cambiarla: regenerar y reemplazar el archivo (subir versión del manifest).
+## Imágenes
+`static/img/{fondo_home,marca_elite,marca_odoo}.png`, generadas con
+`python generar_fondo_home.py --exportar-modulo <static/img>` (en `C:\repos\elitesolutions\meta\fondo-home`).
+El fondo va limpio; las marcas son PNG translúcidos puestos por `static/src/home_menu/home_menu.xml`
+(herencia de `web_enterprise.HomeMenu`) con posición fija en las esquinas. La marca Elite es un `<a>`:
+se ve `www.elitesolutions.cl` y abre `https://www.elitesolutions.cl/implementacion-odoo` en pestaña nueva.
+Para cambiar algo: regenerar los PNG y subir versión del manifest.
 
 ## Reglas
 - NO instalar en bases que ya tengan Studio y un fondo propio (el de Studio se aplica por estilo en línea y gana).
