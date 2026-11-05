@@ -1,0 +1,110 @@
+Odoo Proprietary License v1.0 — EliteSolutions Ltda.
+
+Copyright (c) EliteSolutions Ltda. — Todos los derechos reservados.
+RUT: 78.240.346-K
+Sitio web: www.elitesolutions.cl
+Contacto: soporte@elitesolutions.cl
+
+=======================================================================
+LICENCIA DE USO — MÓDULOS ODOO DESARROLLADOS POR ELITESOLUTIONS LTDA.
+=======================================================================
+
+Este software y los archivos asociados (en adelante, el "Software") son
+propiedad exclusiva de EliteSolutions Ltda. Su uso está permitido
+únicamente bajo las condiciones establecidas en el presente instrumento
+y en el Contrato de Servicio suscrito entre EliteSolutions Ltda. y el
+Cliente (en adelante, el "Contrato").
+
+-----------------------------------------------------------------------
+1. PROPIEDAD INTELECTUAL
+-----------------------------------------------------------------------
+
+El Software, incluyendo su código fuente, estructura, diseño, lógica de
+negocio, plantillas QWeb, automatizaciones y documentación asociada, es
+y permanece como propiedad exclusiva de EliteSolutions Ltda.,
+independientemente de que haya sido desarrollado a medida para un
+cliente específico, salvo acuerdo escrito en contrario.
+
+EliteSolutions Ltda. retiene todos los derechos de propiedad intelectual
+sobre el know-how técnico acumulado en el proceso de desarrollo.
+
+-----------------------------------------------------------------------
+2. LICENCIA DE USO AL CLIENTE
+-----------------------------------------------------------------------
+
+EliteSolutions Ltda. otorga al Cliente una licencia de uso no exclusiva,
+intransferible y revocable para utilizar el Software en la instancia
+Odoo contratada, sujeta a las siguientes condiciones:
+
+  a) La licencia está vigente mientras el Contrato de Servicio se
+     encuentre activo y sin mora.
+
+  b) El Cliente puede utilizar el Software en su operación habitual
+     dentro de la instancia Odoo indicada en el Contrato.
+
+  c) El Cliente NO está autorizado a:
+       - Copiar, redistribuir o ceder el Software a terceros.
+       - Modificar el código fuente sin autorización escrita de
+         EliteSolutions Ltda.
+       - Reclamar titularidad o autoría sobre el Software.
+       - Usar el Software fuera de la instancia Odoo contratada sin
+         acuerdo previo por escrito.
+       - Sublicenciar el Software bajo ninguna modalidad.
+
+-----------------------------------------------------------------------
+3. TÉRMINO DE LA LICENCIA
+-----------------------------------------------------------------------
+
+La licencia de uso se extingue en los siguientes casos:
+
+  - No renovación del Contrato por decisión del Cliente: la licencia
+    expira al término del período contratado. El Software puede
+    permanecer instalado, pero EliteSolutions Ltda. no está obligada
+    a mantenerlo ni garantizar su funcionamiento.
+
+  - Término anticipado por mora del Cliente: la licencia se suspende
+    desde la fecha de término. EliteSolutions Ltda. puede desactivar
+    los módulos sin previo aviso.
+
+  - Adquisición del código fuente: el Cliente puede adquirir la
+    propiedad del Software mediante acuerdo escrito independiente y
+    pago del valor pactado (cotización separada del Contrato de
+    Servicio).
+
+-----------------------------------------------------------------------
+4. RELACIÓN CON ODOO S.A.
+-----------------------------------------------------------------------
+
+Esta licencia es independiente y no reemplaza la licencia de uso de
+la plataforma Odoo otorgada por Odoo S.A. al Cliente. El presente
+instrumento regula exclusivamente los módulos, desarrollos y
+personalizaciones creados por EliteSolutions Ltda.
+
+EliteSolutions Ltda. actúa como Partner Oficial de Odoo en Chile y
+utiliza el formato OPL-1 (Odoo Proprietary License v1.0) como estándar
+de referencia para sus módulos propietarios. El uso de este formato no
+transfiere ningún derecho a Odoo S.A. sobre el Software aquí licenciado.
+
+-----------------------------------------------------------------------
+5. GARANTÍA Y RESPONSABILIDAD
+-----------------------------------------------------------------------
+
+EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍAS EXPRESAS O IMPLÍCITAS
+MÁS ALLÁ DE LAS ESTABLECIDAS EN EL CONTRATO DE SERVICIO. ELITESOLUTIONS
+LTDA. NO SERÁ RESPONSABLE POR DAÑOS DIRECTOS, INDIRECTOS O CONSECUENTES
+DERIVADOS DEL USO O IMPOSIBILIDAD DE USO DEL SOFTWARE, SALVO DOLO O
+CULPA GRAVE IMPUTABLE A ELITESOLUTIONS LTDA.
+
+-----------------------------------------------------------------------
+6. LEY APLICABLE Y JURISDICCIÓN
+-----------------------------------------------------------------------
+
+Este instrumento se rige por las leyes de la República de Chile.
+Cualquier controversia que no pueda resolverse de mutuo acuerdo será
+sometida a los Tribunales Ordinarios de Justicia de la ciudad de Temuco,
+Región de la Araucanía.
+
+=======================================================================
+Para adquirir el código fuente o para consultas sobre esta licencia,
+contacte a: soporte@elitesolutions.cl
+=======================================================================

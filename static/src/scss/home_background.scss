@@ -1,0 +1,6 @@
+// Fondo del menú de aplicaciones: web_enterprise ya pinta el fondo con esta variable
+// (home_menu_background.scss), así que basta con redefinirla; no hace falta Studio.
+.o_home_menu_background,
+.o_web_client.o_home_menu_background {
+    --homeMenu-bg-image: url("/elitesolutions_home_background/static/img/fondo_home.png");
+}
